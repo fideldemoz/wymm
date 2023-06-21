@@ -32,16 +32,22 @@ h1 {
 }
 
 button {
+	margin: 0 12px;
 	padding: 8px 16px;
 	font-weight: 700;
 	border: 2px solid red;
 	background-color: 	#FFD700;
 	border-radius: 4px;
-	transition: all .1s ease-out;
 }
 
 .accepted {
 	background-color: hsla(50,50%,50%,.8);
 	color: white;
 	background-image: url(accepted.png);
+}
+
+@media screen and (min-width: 720px) {
+	button {
+		transition: all .1s ease-out;
+	}
 }

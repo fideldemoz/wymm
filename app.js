@@ -7,7 +7,7 @@
 
 	no.addEventListener("mouseenter", () => {
 		no.style.position = 'absolute';
-		const left = Math.random()*95;
+		const left = Math.random()*90;
 		const top = Math.random()*90;
 		no.style.left = `${left}%`;
 		no.style.top = `${top}%`;
